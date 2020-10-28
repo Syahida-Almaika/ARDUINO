@@ -2,8 +2,8 @@
 ### DEIN ARDUINO WIRD ZUM MITTELPUNKT IN EINEM SCIENCE-FICTION-FILM
 
 #### Entdecke: digitaler Eingang und Ausgang, Dein erstes Programm, Variablen
-Zeit: 45 MINUTEN
-Niveau: 1
+Zeit: 45 MINUTEN; 
+Niveau: 1; 
 Basierend auf Projekten: 1
 
 Nun,da du die Grundlagen der Elekrizität beherrscht, wird es Zeit, mit Deinem ARDINO Dinge zu steuern.
