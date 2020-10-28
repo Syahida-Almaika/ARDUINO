@@ -25,6 +25,23 @@ Konfigurierst du die Pins als Ausgänge, können sie Bauteile, wie LEDs einschal
 Wenn du die Pins als Eingänge konfigurierst, lönnen sie überprüfen, ob ein Schalter betätigt wurde, oder nicht.
 Da die Pins 0 und 1 für die Kommunikation mit dem Computer verwndet werden, ist es am Besten, mit Pin 2 zu beginnen.
 
+###### Seitet 33
+
+### Pojekt2
+### Raumschiff-Steuerzentrale
+
+## Baue den Schaltkreis
+#### 1
+Verdrahte deine Steckpatine mit 5V und der Erdung des ARDUINO, genau wie beim vorherigen Projekt.
+Setze 2 rote LEDs und eine grüne auf die Steckplatine und verbinde jewils die Kathode (kurzer Stift) der LEDs über einen 220 Ohm Widerstand mit der Erdung. Schließe die Anode (langer Stift) der grünen LED an Pin 3 an.
+Schließe die Andoden der roten LEDs an Pin 4 beziehungsweise Pin 5.
+
+#### 2
+Setzte den Taster auf die Steckplatine, so wie dues zuvor auch getan hast.
+Schließe eine Seite an Strom und die andere Seite am digitalen Pin 2des ARDUINO an.
+Außerdem musst du einen 10-kOhm-Widerstan zwischen der Erdung und dem Pin des Tasters, der mit dem ARDUINO verbunden ist, einsetzen.
+Dieser Pull-Down-Widerstand verbindet den Pin mit der Erdung solange der Taster geöffnet ist, damit er LOW liest, wenn keine Spannung durch den Taster hindurch kommt.
+
 ### Raumschiff-Steuerzentrale
 ## BENUTZE ES
 
