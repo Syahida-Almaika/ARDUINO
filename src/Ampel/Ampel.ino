@@ -5,6 +5,8 @@ void setup() {
   pinMode(5, OUTPUT);
   pinMode(2, INPUT);
 }
+
+// Loop heist immer ausführen
 void loop() {
   switchState = digitalRead(2);
   // das ist ein Kommentar
