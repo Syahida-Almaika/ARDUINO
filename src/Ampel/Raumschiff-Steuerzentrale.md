@@ -15,7 +15,6 @@ Wenn du mit der Umsetzung deiner Steuerkonsole biginnst, versuche auch immer die
 Wenn man eine Taste drückt, möchte man dann ein unmittelbares Feedback, oder sollte es eie Verzögerung geben?
 Versuche dich also bei der Entwicklung deines Designs in die Situation eines anderen Benutzers hinein zu versetzen und schaue, ob deine Erwartungen der Realität entsprechen.
 
-##### In diesem Projekt hat du dein ersten ARDUINO-Programm erstellt, um das Verhalten von LEDs mit einem Schalter zu steuern.
-##### Du hast den Einsatz von Variablen, if()...else- Statements, sowie Funktionen zum Lesen und Schreiben von Ein- und Asugängen kennengelernt.
+##### In diesem Projekt hat du dein ersten ARDUINO-Programm erstellt, um das Verhalten von LEDs mit einem Schalter zu steuern. Du hast den Einsatz von Variablen, if()...else- Statements, sowie Funktionen zum Lesen und Schreiben von Ein- und Asugängen kennengelernt.
 
 ###### Seite 40
