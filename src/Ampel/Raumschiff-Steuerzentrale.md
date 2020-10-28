@@ -1,3 +1,20 @@
+#RAUMSCHIFF-STEUERZENTRALE
+#### DEIN ARDUINO WIRD ZUM MITTELPUNKT IN EINEM SCIENCE-FICTION-FILM
+
+##### Entdecke: digitaler Eingang und Ausgang, Dein erstes Programm, Variablen
+Zeit:
+#### 45 MINUTEN
+Niveau: 
+##### 1
+Basierend auf Projekten:
+##### 1
+
+Nun,da du die Grundlagen der Elekrizität beherrscht, wird es Zeit, mit Deinem ARDINO Dinge zu steuern.
+Das Ergebnis des Projekts wird ein Bedienelment mit Schaltern und Lichtern sein, das genauso gut das zentrale Steuerpunkt in einem Science-Fiction-Film hätte sein können.
+Hier bist du derjenige, der entscheidet, ob die Lichter "Hyperdrive aktivieren" oder "Laser abfeuern!" bedeuten.
+Auf der Konsole wird eine grüne LED leuchten, bist du eine Taste drückst.
+Das sendet dem ARDUINO das Signal, das grüne Licht auszuschalten, und zwei andere Lichter blinken zu lassen.
+
 ## Raumschiff-Steuerzentrale
 # BENUTZE ES
 
