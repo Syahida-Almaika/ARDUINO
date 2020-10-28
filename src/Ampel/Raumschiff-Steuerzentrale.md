@@ -32,6 +32,8 @@ Da die Pins 0 und 1 für die Kommunikation mit dem Computer verwndet werden, ist
 ### Pojekt2 - Raumschiff-Steuerzentrale
 ## BAUE DEN SCHALTKREIS
 
+###### Seite 34
+
 1.) Verdrahte deine Steckpatine mit 5V und der Erdung des ARDUINO, genau wie beim vorherigen Projekt.
 Setze 2 rote LEDs und eine grüne auf die Steckplatine und verbinde jewils die Kathode (kurzer Stift) der LEDs über einen 220 Ohm Widerstand mit der Erdung. Schließe die Anode (langer Stift) der grünen LED an Pin 3 an.
 Schließe die Andoden der roten LEDs an Pin 4 beziehungsweise Pin 5.
@@ -40,6 +42,8 @@ Schließe die Andoden der roten LEDs an Pin 4 beziehungsweise Pin 5.
 Schließe eine Seite an Strom und die andere Seite am digitalen Pin 2des ARDUINO an.
 Außerdem musst du einen 10-kOhm-Widerstan zwischen der Erdung und dem Pin des Tasters, der mit dem ARDUINO verbunden ist, einsetzen.
 Dieser Pull-Down-Widerstand verbindet den Pin mit der Erdung solange der Taster geöffnet ist, damit er LOW liest, wenn keine Spannung durch den Taster hindurch kommt.
+
+Du kannst die Steckplatine mit der in deinem Kit enthaltenen Schablonen abdecken, oder sie selbst dekorieren, um dein eigenes Abschussszem zu bauen.
 
 
 
