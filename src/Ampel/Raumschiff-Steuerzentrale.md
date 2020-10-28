@@ -8,6 +8,7 @@ Wenn du delay() in deinem Programm ausrufst, wird alle andere Funktionalität ge
 Krinr Sensor-Messwerte werden elesen, bis die Zeit abgelaufen ist.
 Verzögerungen sind häufig nützlich, pass jedoch beim Entwurf deiner Projekte auf. dass diese nicht unnötig deine Schnittstelle behindern.
 
+![Gehirn](downloads/6180c246392164f0166f8301853ae268_thumb.jpg)
 Wie könnstest du deine roten LEDs blinken lassen, sobald das Programm startet?
 Wie könnstest du mit Schaltern und LEDs eine größere, omplexere Steuerkonsole für deine interstellaren Abenteuer bauen?
 
