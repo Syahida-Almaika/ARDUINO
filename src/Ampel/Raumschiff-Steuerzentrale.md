@@ -1,7 +1,7 @@
 # RAUMSCHIFF-STEUERZENTRALE
-#### DEIN ARDUINO WIRD ZUM MITTELPUNKT IN EINEM SCIENCE-FICTION-FILM
+### DEIN ARDUINO WIRD ZUM MITTELPUNKT IN EINEM SCIENCE-FICTION-FILM
 
-##### Entdecke: digitaler Eingang und Ausgang, Dein erstes Programm, Variablen
+#### Entdecke: digitaler Eingang und Ausgang, Dein erstes Programm, Variablen
 Zeit: 45 MINUTEN
 Niveau: 1
 Basierend auf Projekten: 1
