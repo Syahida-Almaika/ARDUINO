@@ -100,7 +100,7 @@ Wenn keine Spannung auf dem Stift anliegt, erhält switchState den Wert [LOW] (o
 
 1.     void setup(){
 
-}
+3.     }
 
 #### If-Statement:
 Oben hast du das Wort (if) verwendet, um den Status von etwas zu prüfen, und zwar den, des Tasters.
