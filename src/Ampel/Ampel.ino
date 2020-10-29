@@ -13,21 +13,27 @@ void loop() {
   if (switchState == LOW) {
     // Der Schalter wird nicht gedrückt
     int GREEN=3;
-    int YELLOW=4;
-    int RED=5;
+    int RED=4;
+    int RED2=5;
     
     digitalWrite(GREEN, HIGH);
     digitalWrite(RED, LOW);
-    digitalWrite(RED, LOW);
+    digitalWrite(RED2, LOW);
   }
   else { // der Schalter wird gedrückt
-    digitalWrite(3, LOW);
-    digitalWrite(4, LOW);
-    digitalWrite(5, HIGH);
+    int GREEN=3;
+    int RED=4;
+    int RED2=5;
+    
+    digitalWrite(GREEN, LOW);
+    digitalWrite(RED, LOW);
+    digitalWrite(RED2, HIGH);
+    
     delay(250); // Warte ine Viertelsekunde
     // Schalte die LED´s um
-    digitalWrite(4, HIGH);
-    digitalWrite(5, LOW);
+    
+    digitalWrite(RED, HIGH);
+    digitalWrite(RED2, LOW);
     delay(250); // Warte eine Viertelsekunde
   }
 } // Beginne von vorne mit der Schleife
