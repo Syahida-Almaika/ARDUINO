@@ -98,6 +98,10 @@ In deinem Programm wird [digitalRead( )] den Zustand von Pin 2 überprüfenund d
 Wenn Spannung auf dem Pin beim Aufruf von [digitalRead( )] anliegt, erhält die Variable [switchState] den Wert [HIGH] (oder 1).
 Wenn keine Spannung auf dem Stift anliegt, erhält switchState den Wert [LOW] (oder 0).
 
+1.     void setup(){
+
+}
+
 #### If-Statement:
 Oben hast du das Wort (if) verwendet, um den Status von etwas zu prüfen, und zwar den, des Tasters.
 Bei der Programmierung vergleicht ein [if( )] Statement zwei Dingemiteinander, um festzustellen, ob der Vergleich wahr (TRUE) oder falsch (FALSE) ist.
