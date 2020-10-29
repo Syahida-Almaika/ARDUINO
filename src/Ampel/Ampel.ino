@@ -1,4 +1,8 @@
 int switchState = 0;
+int GREEN=3;
+int RED=4;
+int RED2=5;
+
 void setup() {
   pinMode(3, OUTPUT);
   pinMode(4, OUTPUT);
@@ -12,26 +16,16 @@ void loop() {
   // das ist ein Kommentar
   if (switchState == LOW) {
     // Der Schalter wird nicht gedrückt
-    int GREEN=3;
-    int RED=4;
-    int RED2=5;
-    
     digitalWrite(GREEN, HIGH);
     digitalWrite(RED, LOW);
     digitalWrite(RED2, LOW);
   }
   else { // der Schalter wird gedrückt
-    int GREEN=3;
-    int RED=4;
-    int RED2=5;
-    
     digitalWrite(GREEN, LOW);
     digitalWrite(RED, LOW);
     digitalWrite(RED2, HIGH);
-    
     delay(250); // Warte ine Viertelsekunde
     // Schalte die LED´s um
-    
     digitalWrite(RED, HIGH);
     digitalWrite(RED2, LOW);
     delay(250); // Warte eine Viertelsekunde
