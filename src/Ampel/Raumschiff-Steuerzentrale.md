@@ -177,7 +177,13 @@ Der letzte Streifen spezifiziert die Torelarnz: im beispiel unten zeigt Gold an,
 + 9 = weiß
 
 #### 4. Streifen:
-Es gibt dort nur Zahlen von 0 - 6
++ o = schwarz
++ 1 = braum
++ 2 = rot
++ 3 = orange
++ 4 = gelb
++ 5 = grün
++ 6 = blau
 
 #### 5. Streifen:
 +  1%  = braun
