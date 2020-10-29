@@ -64,9 +64,9 @@ Du entscheidest!
 ##### Einige Hinweise bevor du beginnst:
 Jedes ARDUINO-Programm hat zwei Hauptfunktionen.
 Funktionen sind Teile eines Computerprogramms mit eindeutigen Namen, über die sie "aufgerufen" werden, um die spezifischen Befehle ablaufen zu lassen.
-Die notwendigen Funktionen din einem ARDUINO-Programm werden [setup()] und [loop()] genannt.
+Die notwendigen Funktionen din einem ARDUINO-Programm werden [setup( )] und [loop( )] genannt.
 Diese Funktionen müssen deklariert, werden: Du musst deinem ARDUINO erst erklären, was diese Funktionen tun sollen.
-[setup()] und [loop()] wurden deklariert, so wie du auf der rechten Seite siehst.
+[setup( )] und [loop( )] wurden deklariert, so wie du auf der rechten Seite siehst.
 Bevor du mit dem Hauptteil des Programms beginnst, wirst du eine Variable erstellen.
 Variablen sind von dir zugewiesene Namen für Orte im Speicher des ARDUINO, um verfolgen zu können, was geschieht.
 Diese Werte können sich ändern, abhängig von deinen Anweisungen im Programm.
@@ -78,6 +78,20 @@ Um eine Variable zu erstellen, musst du zuerst deklarieren, welchen TYP sie hat.
 Der DATENTYP [int] speichert eine Ganzzahl (oder Integer); dies ist jede mögliche Zahl ohne Dezimalkomma.
 In der Regel gibst du Variablen auch einen Anfangswert.
 Die Deklaration der Variablen muss, wie jeder Befehl, mit einem Semikolon (;) abgeschlossen werden.
+##### Konfiguriere die Pin-Funktionsweise
+[setup( )] wird wird einmalig beim Einschalten des ARDUINO ausgeführt.
+Dort konfigurierst du mit der Funktion [pinMode( )], ob die digitalen Pins Ein-oder Ausgänge sind.
+Die Pins, die an LEDs angeschlossen werden, sind AUSGÄNGE, und der Pin am Taster in dein EINGANG.
+##### Schreibe die Schleife
+[loop( )] wird wiederholt ausgeführt, nachdem [setup( )] abgeschlossen ist.
+In der Funktion [loop( )] überprüfst du die Spannungauf den EINGÄNGEN und schaltest AUSGÄNGE ein und aus.
+Um den Spannungspegel auf deinen digitalen EINGANG zu überprüfen, benutzt du die Funktion [digitalRead( )], welche die Spannung ausließt.
+Um zu wissen, welcher Pin ausgelesen werden muss, erwartet [digitalRead( )] ein ARGUMENT.
+Argumente sind Informationen, die du an Fuktionen weitergibst, um ihnen zu erklären, was sie zu tun haben.
+Beispielsweise benötigt [digitalRead( )] ein Argument: welcher Pin soll geprüft werden.
+In deinem Programm wird [digitalRead( )] den Zustand von Pin 2 überprüfenund der Wert in der Variable switchSate speichern.
+Wenn Spannung auf dem Pin beim Aufruf von [digitalRead( )] anliegt, erhält die Variable [switchState] den Wert HIGH (oder 1).
+Wenn keine Spannung auf dem Stift anliegt, erhält switchState den Wert LOW (oder 0).
 
 ###### Seite 36
 
