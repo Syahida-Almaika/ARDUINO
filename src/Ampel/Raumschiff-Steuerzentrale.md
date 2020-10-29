@@ -119,6 +119,9 @@ Wenn du innerhalb eines [if( )]-Statements die roten LEDs ein- und die grünen L
 ##### Wenn du dein Programm jetzt ablaufen lässt, ändern sich die Lichter, sobald du den Taster betätigst. Das ist schon recht ordentlich, aber du kannst dem Programm ein wenig mehr Komplexität hinzufügen, für eine noch interessantere Ausgabe
 
 Du hast dem ARDUINO gesagt, was er tun soll, wenn der Taster geöffnet ist.
+Jetzt definiere, was geschieht, wenn der Schalter geschlossen ist.
+Das [if( )]- Statement hat eine optionale [else]-Komponente, in der man etwas ausführen lassen kann, wenn die ursprüngliche Bedingung nicht erfüllt wurde.
+Da, du überprüfst hattest, ob der Schalter auf LOW stand, schreibe die Befehle für den Zustand HIGH nach dem [else]-Statement.
 
 ###### Seite 36 - 39
 
