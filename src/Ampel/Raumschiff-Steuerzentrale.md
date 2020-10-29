@@ -64,7 +64,6 @@ Du entscheidest!
 ## Das Programm
 
 ##### Einige Hinweise bevor du beginnst:
-
 Jedes ARDUINO-Programm hat zwei Hauptfunktionen.
 Funktionen sind Teile eines Computerprogramms mit eindeutigen Namen, über die sie "aufgerufen" werden, um die spezifischen Befehle ablaufen zu lassen.
 Die notwendigen Funktionen din einem ARDUINO-Programm werden [setup( )] und [loop( )] genannt.
@@ -78,20 +77,17 @@ Beispielsweise sagt dir eine Variable mit dem Namen [switchState], was sie speic
 Den Zusatnd (state) und den SChalter (switch). Hingegen sagt eine Variable mit dem Namen "X" nicht viel darüber hinaus, was ise enthält.
 
 ##### Beginnen wir zu programmieren:
-
 Um eine Variable zu erstellen, musst du zuerst deklarieren, welchen TYP sie hat.
 Der DATENTYP [int] speichert eine Ganzzahl (oder Integer); dies ist jede mögliche Zahl ohne Dezimalkomma.
 In der Regel gibst du Variablen auch einen Anfangswert.
 Die Deklaration der Variablen muss, wie jeder Befehl, mit einem Semikolon (;) abgeschlossen werden.
 
 ##### Konfiguriere die Pin-Funktionsweise
-
 [setup( )] wird wird einmalig beim Einschalten des ARDUINO ausgeführt.
 Dort konfigurierst du mit der Funktion [pinMode( )], ob die digitalen Pins Ein-oder Ausgänge sind.
 Die Pins, die an LEDs angeschlossen werden, sind AUSGÄNGE, und der Pin am Taster in dein Eingang.
 
 ##### Schreibe die Schleife:
-
 [loop( )] wird wiederholt ausgeführt, nachdem [setup( )] abgeschlossen ist.
 In der Funktion [loop( )] überprüfst du die Spannungauf den EINGÄNGEN und schaltest AUSGÄNGE ein und aus.
 Um den Spannungspegel auf deinen digitalen Eingang zu überprüfen, benutzt du die Funktion [digitalRead( )], welche die Spannung ausließt.
@@ -103,7 +99,6 @@ Wenn Spannung auf dem Pin beim Aufruf von [digitalRead( )] anliegt, erhält die 
 Wenn keine Spannung auf dem Stift anliegt, erhält switchState den Wert [LOW] (oder 0).
 
 ##### If-Statement:
-
 Oben hast du das Wort (if) verwendet, um den Status von etwas zu prüfen, und zwar den, des Tasters.
 Bei der Programmierung vergleicht ein [if( )] Statement zwei Dingemiteinander, um festzustellen, ob der Vergleich wahr (TRUE) oder falsch (FALSE) ist.
 Je nach Ausgang des Vergleichs werden dann von dir festgelegte Aktionen durchgeführt.
@@ -111,13 +106,11 @@ Wenn du zwei Dinge in der Programmierung vergleichst, benutzt du zwei Gleichheit
 Wenn du nur ein Zeichen benutzt, weist du einen Wert zu, anstatt ihn zu vergleichen.
 
 ##### Baue dein Raumschiff:
-
 [digitalWrite( )] ist der Befehl, mit dem du 5V oder 0V an einen Ausgang schicken kannst.
 [digitalWrite( )] braucht dazu zwei Argumente, welcher Pinn zu steuern ist, und welchen Wert der Pin annehmen soll, also [HIGH] oder [LOW].
 Wenn du innerhalb eines [if( )]-Statements die roten LEDs ein- und die grünen LEDs ausschalten möchtest, sollte dein Programm aussehen.
 
 ##### Wenn du dein Programm jetzt ablaufen lässt, ändern sich die Lichter, sobald du den Taster betätigst. Das ist schon recht ordentlich, aber du kannst dem Programm ein wenig mehr Komplexität hinzufügen, für eine noch interessantere Ausgabe
-
 Du hast dem ARDUINO gesagt, was er tun soll, wenn der Taster geöffnet ist.
 Jetzt definiere, was geschieht, wenn der Schalter geschlossen ist.
 Das [if( )]- Statement hat eine optionale [else]-Komponente, in der man etwas ausführen lassen kann, wenn die ursprüngliche Bedingung nicht erfüllt wurde.
@@ -127,7 +120,6 @@ Um die roten LEDs blinken zu lassen, sobald der Taster betätigt wurde, musst du
 Um dies zu tun, änedere das Programm so.
 
 ##### Jetzt blinkt dein Programm die roten LEDs, wenn der Taster betätigt wird.
-
 Nachdem du die LEDs in einen bestimmten Zustand verstezt hast, solltest du den ARDUINO eine Pause machen lassen, bevor er sie wieder zurücksetzt.
 Wenn du nicht wartest, gehen die Lichter so schnell hin und her, dass es cheint, als wären die LEDs gedimmt und nicht ein-und ausgeschaltet.
 Das kommt daher, weil ARDUINO seine [loop( )]-Schleife tausendfach jede Sekunde durchläuft und die LEDs schnellerein -und ausgeschaltet werden, als wir wahrnehmen können.
