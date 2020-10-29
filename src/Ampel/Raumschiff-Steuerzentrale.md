@@ -187,10 +187,12 @@ Der letzte Streifen spezifiziert die Torelarnz: im beispiel unten zeigt Gold an,
 + 6 = blau
 
 #### 5. Streifen:
-+  1%  = braun
-+  2%  = rot
-+  5%  = gold
-+ 10% = silber
++  ± 1%  = braun
++  ± 2%  = rot
++  ± 5%  = gold
++  ± 10% = silber
 
 ### Beispiel
-Braun - Schwarz - Orange - 
+Braun - Schwarz - Orange - Gold:
+
+1.      0.       x 10^3.   ±5  = 10.000 Ω = 10kΩ ±5%
