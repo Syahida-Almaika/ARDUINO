@@ -12,6 +12,10 @@ void loop() {
   // das ist ein Kommentar
   if (switchState == LOW) {
     // Der Schalter wird nicht gedrückt
+    int GREEN=3;
+    int YELLOW=4;
+    int RED=5;
+    
     digitalWrite(GREEN, HIGH);
     digitalWrite(RED, LOW);
     digitalWrite(RED, LOW);
