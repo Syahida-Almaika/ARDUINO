@@ -180,7 +180,7 @@ Der letzte Streifen spezifiziert die Torelarnz: im beispiel unten zeigt Gold an,
 Es gibt dort nur Zahlen von 0 - 6
 
 #### 5. Streifen:
-+  1% = braun
-+  2% = rot
-+  5% = ocker
++  1%  = braun
++  2%  = rot
++  5%  = ocker
 + 10% = grau
