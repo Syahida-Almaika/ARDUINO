@@ -194,4 +194,5 @@ Der letzte Streifen spezifiziert die Torelarnz: im beispiel unten zeigt Gold an,
 
 ### Beispiel
 Braun - Schwarz - Orange - Gold:
-1 0 x10^3 ±5 ≠ 10.000Ω = 10Ω = 5%
+
+1 | 0 | x10^3 | ±5 = 10.000Ω = 10Ω = 5%
