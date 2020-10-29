@@ -58,8 +58,30 @@ Du entscheidest!
 ###### Seite 35
 
 
+### Projekt 02 - Raumschiff-Steuerzentrale
+## Das Programm
 
-### PROJET 02 - aumschiff-Steuerzentrale
+##### Einige Hinweise bevor du beginnst:
+Jedes ARDUINO-Programm hat zwei Hauptfunktionen.
+Funktionen sind Teile eines Computerprogramms mit eindeutigen Namen, über die sie "aufgerufen" werden, um die spezifischen Befehle ablaufen zu lassen.
+Die notwendigen Funktionen din einem ARDUINO-Programm werden [setup()] und [loop()] genannt.
+Diese Funktionen müssen deklariert, werden: Du musst deinem ARDUINO erst erklären, was diese Funktionen tun sollen.
+[setup()] und [loop()] wurden deklariert, so wie du auf der rechten Seite siehst.
+Bevor du mit dem Hauptteil des Programms beginnst, wirst du eine Variable erstellen.
+Variablen sind von dir zugewiesene Namen für Orte im Speicher des ARDUINO, um verfolgen zu können, was geschieht.
+Diese Werte können sich ändern, abhängig von deinen Anweisungen im Programm.
+Variablennamen sollen den Wert beschreiben, den sie speichern.
+Beispielsweise sagt dir eine Variable mit dem Namen [switchState], was sie speichert:
+Den Zusatnd (state) und den SChalter (switch). Hingegen sagt eine Variable mit dem Namen "X" nicht viel darüber hinaus, was ise enthält.
+##### Beginnen wir zu programmieren:
+Um eine Variable zu erstellen, musst du zuerst deklarieren, welchen TYP sie hat.
+Der DATENTYP [int] speichert eine Ganzzahl (oder Integer); dies ist jede mögliche Zahl ohne Dezimalkomma.
+In der Regel gibst du Variablen auch einen Anfangswert.
+Die Deklaration der Variablen muss, wie jeder Befehl, mit einem Semikolon (;) abgeschlossen werden.
+
+###### Seite 36
+
+### Projekt 02 - Raumschiff-Steuerzentrale
 ## BENUTZE ES
 
 Sobald dein ARDUINO programmiert ist, solltest du das grüne Licht leuchten sehen.
