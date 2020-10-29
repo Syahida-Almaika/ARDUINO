@@ -1,3 +1,4 @@
+### Projekt 02
 # RAUMSCHIFF-STEUERZENTRALE
 ### DEIN ARDUINO WIRD ZUM MITTELPUNKT IN EINEM SCIENCE-FICTION-FILM
 
@@ -29,7 +30,7 @@ Da die Pins 0 und 1 für die Kommunikation mit dem Computer verwndet werden, ist
 
 
 
-### Pojekt2 - Raumschiff-Steuerzentrale
+### Pojekt 02 - Raumschiff-Steuerzentrale
 ## BAUE DEN SCHALTKREIS
 
 ###### Seite 34
@@ -56,6 +57,7 @@ Du entscheidest!
 2.) Lege das gefaltete Papier auf die Steckplatine. Die drei LEDs und der Taster helfen, es an der richtigen Stelle zu halten.
 
 ###### Seite 35
+
 
 
 ### Projekt 02 - Raumschiff-Steuerzentrale
@@ -114,9 +116,13 @@ Wenn du nur ein Zeichen benutzt, weist du einen Wert zu, anstatt ihn zu vergleic
 [digitalWrite( )] braucht dazu zwei Argumente, welcher Pinn zu steuern ist, und welchen Wert der Pin annehmen soll, also HIGH oder LOW.
 Wenn du innerhalb eines [if( )]-Statements die roten LEDs ein- und die grünen LEDs ausschalten möchtest, sollte dein Programm aussehen.
 
+##### Wenn du dein Programm jetzt ablaufen lässt, ändern sich die Lichter, sobald du den Taster betätigst. Das ist schon recht ordentlich, aber du kannst dem Programm ein wenig mehr Komplexität hinzufügen, für eine noch interessantere Ausgabe
 
+Du hast dem ARDUINO gesagt, was er tun soll, wenn der Taster geöffnet ist.
 
 ###### Seite 36 - 39
+
+
 
 ### Projekt 02 - Raumschiff-Steuerzentrale
 ## BENUTZE ES
