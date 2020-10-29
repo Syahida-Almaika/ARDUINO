@@ -164,6 +164,7 @@ Jeder Widerstand hat entweder vier oder fünf Streifen.
 Bei Widerständen mit vier Streifen reprädentieren die ersten zwei Streifen die ersten zwei Zifferndes Widerstandwertes und der dritte die Anzahl der folgenden Nullen (er steht für die Zehnerpotenz).
 Der letzte Streifen spezifiziert die Torelarnz: im beispiel unten zeigt Gold an, dass der Widerstand 10 kOhm plus oder minus 5% sein kann.
 
+(nur Widerstände mit 5 Streifen haben den dritten Streifen. Widerstände mit 4 Streifen, überspringen den 3. Streifen) 
 #### Für die ersten 3 Streifen gilt:
 + o = schwarz
 + 1 = braum
@@ -188,5 +189,8 @@ Der letzte Streifen spezifiziert die Torelarnz: im beispiel unten zeigt Gold an,
 #### 5. Streifen:
 +  1%  = braun
 +  2%  = rot
-+  5%  = ocker
-+ 10% = grau
++  5%  = gold
++ 10% = silber
+
+### Beispiel
+Braun - Schwarz - Orange - 
