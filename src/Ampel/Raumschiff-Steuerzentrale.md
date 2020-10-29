@@ -165,22 +165,22 @@ Bei Widerständen mit vier Streifen reprädentieren die ersten zwei Streifen die
 Der letzte Streifen spezifiziert die Torelarnz: im beispiel unten zeigt Gold an, dass der Widerstand 10 kOhm plus oder minus 5% sein kann.
 
 #### Für die ersten 3 Streifen gilt:
-##### o = schwarz
-##### 1 = braum
-##### 2 = rot
-##### 3 = orange
-##### 4 = gelb
-##### 5 = grün
-##### 6 = blau
-##### 7 = violett
-##### 8 = grau
-##### 9 = weiß
+o = schwarz
+1 = braum
+2 = rot
+3 = orange
+4 = gelb
+5 = grün
+6 = blau
+7 = violett
+8 = grau
+9 = weiß
 
 #### 4. Streifen:
 Es gibt dort nur Zahlen von 0 - 6
 
 #### 5. Streifen:
-##### +  1% = braun
-##### +  2% = rot
-##### +  5% = ocker
-##### + 10% = grau
++  1% = braun
++  2% = rot
++  5% = ocker
++ 10% = grau
