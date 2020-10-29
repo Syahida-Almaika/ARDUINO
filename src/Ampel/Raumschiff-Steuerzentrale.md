@@ -123,6 +123,19 @@ Jetzt definiere, was geschieht, wenn der Schalter geschlossen ist.
 Das [if( )]- Statement hat eine optionale [else]-Komponente, in der man etwas ausführen lassen kann, wenn die ursprüngliche Bedingung nicht erfüllt wurde.
 Da, du überprüfst hattest, ob der Schalter auf [LOW] stand, schreibe die Befehle für den Zustand [HIGH] nach dem [else]-Statement.
 
+Um die roten LEDs blinken zu lassen, sobald der Taster betätigt wurde, musst du die LEDs innerhalb [else]-Statements ein- und ausschalten.
+Um dies zu tun, änedere das Programm so.
+
+##### Jetzt blinkt dein Programm die roten LEDs, wenn der Taster betätigt wird.
+
+Nachdem du die LEDs in einen bestimmten Zustand verstezt hast, solltest du den ARDUINO eine Pause machen lassen, bevor er sie wieder zurücksetzt.
+Wenn du nicht wartest, gehen die Lichter so schnell hin und her, dass es cheint, als wären die LEDs gedimmt und nicht ein-und ausgeschaltet.
+Das kommt daher, weil ARDUINO seine [loop( )]-Schleife tausendfach jede Sekunde durchläuft und die LEDs schnellerein -und ausgeschaltet werden, als wir wahrnehmen können.
+Die [delay( )]-Funktion lässt den ARDUINO die Ausführung des Programmsfür eine gewisse Zeitspanne anhalten.
+[delay( )] akzeptiert ein Argument, welches die Anzahl der Millisekunden festlegt, bis im Programm fortgeharen wird.
+Eine Sekunde hat 1000 Millisekunden.
+[delay(250)] unterbricht also nur für eine Vierteleskunde.
+
 ###### Seite 36 - 39
 
 
