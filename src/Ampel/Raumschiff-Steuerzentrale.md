@@ -17,9 +17,9 @@ Die digitalen Pins des ARDUINO können nur zwei eingehende Zustände lesen:
 Spannung liegt an oder nicht.
 Üblicherweise werden diese Art von Eingang digital (oder manchmal binär, von zwei Zustände) und diese Zustände [HIGH] & [LOW] genannt.
 [HIGH] entspricht dir dabei zu sagen "Hier liegt Spannung an!" und [LOW] deutet "Auf diesem Pin liegt keine Spannung an!".
-Wenn du einen AUSGANG mit dm Befehl digitalWrite() auf [HIGH] setzt, schaltest du ihn ein.
+Wenn du einen Ausgang mit dm Befehl digitalWrite() auf [HIGH] setzt, schaltest du ihn ein.
 Wenn du nun die Spannung zwischen dem Pin und er Erdung misst, sollte sie 5V betragen.
-Wenn du den AUSGANG auf [LOW] setzt, schaltest du ihn aus.
+Wenn du den Ausgang auf [LOW] setzt, schaltest du ihn aus.
 
 Die digitalen Pins des ARDUINO können sowohl als Einträge, als auch als Ausgänge dienen, was durch die Konfigurationn deines Programmes festgelegt wird.
 Konfigurierst du die Pins als Ausgänge, können sie Bauteile, wie LEDs einschalten.
@@ -88,13 +88,13 @@ Die Deklaration der Variablen muss, wie jeder Befehl, mit einem Semikolon (;) ab
 
 [setup( )] wird wird einmalig beim Einschalten des ARDUINO ausgeführt.
 Dort konfigurierst du mit der Funktion [pinMode( )], ob die digitalen Pins Ein-oder Ausgänge sind.
-Die Pins, die an LEDs angeschlossen werden, sind AUSGÄNGE, und der Pin am Taster in dein EINGANG.
+Die Pins, die an LEDs angeschlossen werden, sind AUSGÄNGE, und der Pin am Taster in dein Eingang.
 
 ##### Schreibe die Schleife:
 
 [loop( )] wird wiederholt ausgeführt, nachdem [setup( )] abgeschlossen ist.
 In der Funktion [loop( )] überprüfst du die Spannungauf den EINGÄNGEN und schaltest AUSGÄNGE ein und aus.
-Um den Spannungspegel auf deinen digitalen EINGANG zu überprüfen, benutzt du die Funktion [digitalRead( )], welche die Spannung ausließt.
+Um den Spannungspegel auf deinen digitalen Eingang zu überprüfen, benutzt du die Funktion [digitalRead( )], welche die Spannung ausließt.
 Um zu wissen, welcher Pin ausgelesen werden muss, erwartet [digitalRead( )] ein ARGUMENT.
 Argumente sind Informationen, die du an Fuktionen weitergibst, um ihnen zu erklären, was sie zu tun haben.
 Beispielsweise benötigt [digitalRead( )] ein Argument: welcher Pin soll geprüft werden.
