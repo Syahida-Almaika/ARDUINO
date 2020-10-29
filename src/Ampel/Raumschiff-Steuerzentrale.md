@@ -152,3 +152,35 @@ Versuche dich also bei der Entwicklung deines Designs in die Situation eines and
 ### In diesem Projekt hat du dein ersten ARDUINO-Programm erstellt, um das Verhalten von LEDs mit einem Schalter zu steuern. Du hast den Einsatz von Variablen, if()...else- Statements, sowie Funktionen zum Lesen und Schreiben von Ein- und Asugängen kennengelernt.
 
 ###### Seite 40
+
+
+
+### Projekt 02 - Raumschiff-Steuerzentrale
+## FARBCODES FÜR WIDERSTÄNDE LESEN
+
+Widerstandswerte werden mit farbigen Streifen gekennzeichnet, deren Entwicklung in den 1920er entwickelt wurde, als es zu schwierig war, Zahlen auf solch winzige Gegenstände zu schrieben.
+Jede Frabe entspricht einer Zahl, wie du unten in der Tabelle siehst.
+Jeder Widerstand hat entweder vier oder fünf Streifen.
+Bei Widerständen mit vier Streifen reprädentieren die ersten zwei Streifen die ersten zwei Zifferndes Widerstandwertes und der dritte die Anzahl der folgenden Nullen (er steht für die Zehnerpotenz).
+Der letzte Streifen spezifiziert die Torelarnz: im beispiel unten zeigt Gold an, dass der Widerstand 10 kOhm plus oder minus 5% sein kann.
+
+#### Für die ersten 3 Streifen gilt:
+##### o = schwarz
+##### 1 = braum
+##### 2 = rot
+##### 3 = orange
+##### 4 = gelb
+##### 5 = grün
+##### 6 = blau
+##### 7 = violett
+##### 8 = grau
+##### 9 = weiß
+
+#### 4. Streifen:
+Es gibt dort nur Zahlen von 0 - 6
+
+#### 5. Streifen:
+##### +  1% = braun
+##### +  2% = rot
+##### +  5% = ocker
+##### + 10% = grau
