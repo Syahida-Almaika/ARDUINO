@@ -15,11 +15,11 @@ Das sendet dem ARDUINO das Signal, das grüne Licht auszuschalten, und zwei ande
 
 Die digitalen Pins des ARDUINO können nur zwei eingehende Zustände lesen:
 Spannung liegt an oder nicht.
-Üblicherweise werden diese Art von Eingang digital (oder manchmal binär, von zwei Zustände) und diese ZuständeHIGH & LOW genannt.
-HIGH entspricht dir dabei zu sagen "Hier liegt Spannung an!" und LOW deutet "Auf diesem Pin liegt keine Spannung an!".
-Wenn du einen AUSGANG mit dm Befehl digitalWrite() auf HIGH setzt, schaltest du ihn ein.
+Üblicherweise werden diese Art von Eingang digital (oder manchmal binär, von zwei Zustände) und diese Zustände [HIGH] & [LOW] genannt.
+[HIGH] entspricht dir dabei zu sagen "Hier liegt Spannung an!" und [LOW] deutet "Auf diesem Pin liegt keine Spannung an!".
+Wenn du einen AUSGANG mit dm Befehl digitalWrite() auf [HIGH] setzt, schaltest du ihn ein.
 Wenn du nun die Spannung zwischen dem Pin und er Erdung misst, sollte sie 5V betragen.
-Wenn du den AUSGANG auf LOW setzt, schaltest du ihn aus.
+Wenn du den AUSGANG auf [LOW] setzt, schaltest du ihn aus.
 
 Die digitalen Pins des ARDUINO können sowohl als Einträge, als auch als Ausgänge dienen, was durch die Konfigurationn deines Programmes festgelegt wird.
 Konfigurierst du die Pins als Ausgänge, können sie Bauteile, wie LEDs einschalten.
@@ -44,7 +44,7 @@ Schließe die Andoden der roten LEDs an Pin 4 beziehungsweise Pin 5.
 2.) Setzte den Taster auf die Steckplatine, so wie dues zuvor auch getan hast.
 Schließe eine Seite an Strom und die andere Seite am digitalen Pin 2des ARDUINO an.
 Außerdem musst du einen 10-kOhm-Widerstan zwischen der Erdung und dem Pin des Tasters, der mit dem ARDUINO verbunden ist, einsetzen.
-Dieser Pull-Down-Widerstand verbindet den Pin mit der Erdung solange der Taster geöffnet ist, damit er LOW liest, wenn keine Spannung durch den Taster hindurch kommt.
+Dieser Pull-Down-Widerstand verbindet den Pin mit der Erdung solange der Taster geöffnet ist, damit er [LOW] liest, wenn keine Spannung durch den Taster hindurch kommt.
 
 Du kannst die Steckplatine mit der in deinem Kit enthaltenen Schablonen abdecken, oder sie selbst dekorieren, um dein eigenes Abschusssystem zu bauen.
 Erst durch das Design deiner Steuerkonsole und deinen Beschriftungen erhalten die Lichter Bedeutung.
@@ -99,8 +99,8 @@ Um zu wissen, welcher Pin ausgelesen werden muss, erwartet [digitalRead( )] ein 
 Argumente sind Informationen, die du an Fuktionen weitergibst, um ihnen zu erklären, was sie zu tun haben.
 Beispielsweise benötigt [digitalRead( )] ein Argument: welcher Pin soll geprüft werden.
 In deinem Programm wird [digitalRead( )] den Zustand von Pin 2 überprüfenund der Wert in der Variable switchSate speichern.
-Wenn Spannung auf dem Pin beim Aufruf von [digitalRead( )] anliegt, erhält die Variable [switchState] den Wert HIGH (oder 1).
-Wenn keine Spannung auf dem Stift anliegt, erhält switchState den Wert LOW (oder 0).
+Wenn Spannung auf dem Pin beim Aufruf von [digitalRead( )] anliegt, erhält die Variable [switchState] den Wert [HIGH] (oder 1).
+Wenn keine Spannung auf dem Stift anliegt, erhält switchState den Wert [LOW] (oder 0).
 
 ##### If-Statement:
 
@@ -113,7 +113,7 @@ Wenn du nur ein Zeichen benutzt, weist du einen Wert zu, anstatt ihn zu vergleic
 ##### Baue dein Raumschiff:
 
 [digitalWrite( )] ist der Befehl, mit dem du 5V oder 0V an einen Ausgang schicken kannst.
-[digitalWrite( )] braucht dazu zwei Argumente, welcher Pinn zu steuern ist, und welchen Wert der Pin annehmen soll, also HIGH oder LOW.
+[digitalWrite( )] braucht dazu zwei Argumente, welcher Pinn zu steuern ist, und welchen Wert der Pin annehmen soll, also [HIGH] oder [LOW].
 Wenn du innerhalb eines [if( )]-Statements die roten LEDs ein- und die grünen LEDs ausschalten möchtest, sollte dein Programm aussehen.
 
 ##### Wenn du dein Programm jetzt ablaufen lässt, ändern sich die Lichter, sobald du den Taster betätigst. Das ist schon recht ordentlich, aber du kannst dem Programm ein wenig mehr Komplexität hinzufügen, für eine noch interessantere Ausgabe
@@ -121,7 +121,7 @@ Wenn du innerhalb eines [if( )]-Statements die roten LEDs ein- und die grünen L
 Du hast dem ARDUINO gesagt, was er tun soll, wenn der Taster geöffnet ist.
 Jetzt definiere, was geschieht, wenn der Schalter geschlossen ist.
 Das [if( )]- Statement hat eine optionale [else]-Komponente, in der man etwas ausführen lassen kann, wenn die ursprüngliche Bedingung nicht erfüllt wurde.
-Da, du überprüfst hattest, ob der Schalter auf LOW stand, schreibe die Befehle für den Zustand HIGH nach dem [else]-Statement.
+Da, du überprüfst hattest, ob der Schalter auf [LOW] stand, schreibe die Befehle für den Zustand [HIGH] nach dem [else]-Statement.
 
 ###### Seite 36 - 39
 
