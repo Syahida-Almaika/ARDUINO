@@ -93,7 +93,7 @@ In deinem Programm wird [digitalRead( )] den Zustand von Pin 2 überprüfenund d
 Wenn Spannung auf dem Pin beim Aufruf von [digitalRead( )] anliegt, erhält die Variable [switchState] den Wert HIGH (oder 1).
 Wenn keine Spannung auf dem Stift anliegt, erhält switchState den Wert LOW (oder 0).
 
-###### Seite 36 - 38
+###### Seite 36 - 39
 
 ### Projekt 02 - Raumschiff-Steuerzentrale
 ## BENUTZE ES
