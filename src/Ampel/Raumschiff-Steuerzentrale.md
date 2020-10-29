@@ -99,7 +99,7 @@ Wenn Spannung auf dem Pin beim Aufruf von [digitalRead( )] anliegt, erhält die 
 Wenn keine Spannung auf dem Stift anliegt, erhält switchState den Wert [LOW] (oder 0).
 
 1.     void setup(){
-3.     }
+1.     }
 
 #### If-Statement:
 Oben hast du das Wort (if) verwendet, um den Status von etwas zu prüfen, und zwar den, des Tasters.
