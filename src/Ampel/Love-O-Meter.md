@@ -45,3 +45,16 @@ Du kannst dir auch das Kalibrierungsbeispiel anschauen, das mit der Software mit
 [Kalibration](https://www.arduino.cc/en/calibration) 
 
 ###### Seite 34
+
+1.) Verbinde deine Steckplatine mit Strom und Erdung, wie du es in den vorherigen Projekten getan hast.
+
+2.) Verbinde jewils die Kathode (kurzer Stift) der verwendeten LEDs über einen 220-Ohm-Widerstand mit der Erdung.
+Schließe jeweils die Andoden der LEDs an den Pin2 bis 4.
+Das sind die Anzeigen für das Projekt.
+
+3.) Setzte den TMP36, wie in Abbildung 2 gezeigt, mit der abgreundeten Fläche vom ARDUINO abgewandt auf die Steckplatine (die Reihenfolge der Pins ist wichtig!).
+Schließe den linken Pin der flachen Seite am Strom, den rechten an der Erdung an.
+Schließe den mittleren Pin an Pin!0 vom ARDUINO an.
+Das ist der analoge Eingang 0.
+
+
