@@ -68,3 +68,9 @@ Zeichne ein paar Lippen dort, wo der Sensor sein wird, und schneide Kreise für 
 
 2.) Plaziere das ausgeschnittene Papier so auf der Steckplatine, dass die Lippen den Sensor bedecken und LEDs durch die ausgeschnittenen Kreise heraus gucken.
 Drück auf die Lippen, um zu sehen, wie heiß du bist!
+
+### Projekt 03 - Love-O-Meter
+## DAS PROGRAMM
+
+#### Einige nützliche Konstanten
+Konstanten erlauben dir ähnlich wie Variablen
