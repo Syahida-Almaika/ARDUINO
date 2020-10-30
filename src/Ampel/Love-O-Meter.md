@@ -73,4 +73,14 @@ Drück auf die Lippen, um zu sehen, wie heiß du bist!
 ## DAS PROGRAMM
 
 #### Einige nützliche Konstanten
-Konstanten erlauben dir ähnlich wie Variablen
+Konstanten erlauben dir ähnlich wie Variablen, Dinge im Programm eindeutig zu benennen.
+Im Gegensatz zu Variabeln, können sie sich allerdings nicht ändern.
+Benenne den analogen Eingang, um leicht auf ihn zugreifen zu können, und erstelle eine zweite benannte Konstante, welche die Ausgangsteperatur speichert.
+Für jede 2 Grad oberhalb der Ausgangstemepraturwird eine LED eingeschaltet.
+Der dir bereits bekannte Datentyp [int( )]wird hier verwendet, um zu wissen, an welchem Pin der Sensor angeschlossen ist.
+Die Temperatur wird als [float( )]-Datentyp, also als Ganzkommazahl gespeichert.
+Zahlen dieser Art haben ein Dezimalkommaund werden verwendet, um Brüche auszudrücken.
+
+#### Initialisiere die serielle Schnittstelle mit der gewünschten Geschwindigkeit
+
+In den Einstellungen verwendest du einen neuen Befehl [Serial.begin( )].
