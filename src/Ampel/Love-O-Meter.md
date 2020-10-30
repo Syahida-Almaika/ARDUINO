@@ -57,4 +57,14 @@ Schließe den linken Pin der flachen Seite am Strom, den rechten an der Erdung a
 Schließe den mittleren Pin an Pin!0 vom ARDUINO an.
 Das ist der analoge Eingang 0.
 
+Baue eine Schnittstelle für den Sensor, damit Personen damit interagieren können.
+Ein Papierausschnitt in der Form einer Hand ist ein guter Hinweisgeber.
+Wenn du dein Glück herausfördern möchtest, bastle ein paar Lippen, die man küssen kann, und schau, wie dies die Lichter anfeuert!
+Du kannst die LEDs auch bescgriften, um ihnen eine edeutung zu geben.
+Vielleicht bedeutet eine LED, dass du eiskalt bist, zwei LEDs, dass du warmherzig und freundlich bist, und drei LEDs, dass du einen zum Schmelzen bringst!
 
+1.) Schneide ein Stück Papier aus, das über die Steckplatine passt.
+Zeichne ein paar Lippen dort, wo der Sensor sein wird, und schneide Kreise für die LEDs aus.
+
+2.) Plaziere das ausgeschnittene Papier so auf der Steckplatine, dass die Lippen den Sensor bedecken und LEDs durch die ausgeschnittenen Kreise heraus gucken.
+Drück auf die Lippen, um zu sehen, wie heiß du bist!
