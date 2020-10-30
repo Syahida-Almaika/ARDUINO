@@ -33,3 +33,14 @@ Dadurch erhälts du fortwährend einen Überblick über den Status deiner Sensor
 
 ###### Seite 43
 
+### Pojekt 03 - Love-O-Meter
+## BAUE DEN SCHALTKREIS
+
+In diesem Projekt kannst musst du zuerst die Umgebungstemperatur messen, bevor du fortfahren kannst.
+Du überprüfst das im Moment noch manuell, aber das ließe sich auch durch die Kalibrierung erreichen.
+Man könnte z.B. einen Schalter dazu einsetzen, auf Knopfdruck die Ausgangstemperatur festzuhalten, oder man könnte den ARDUINO vor dem [loop()] ein paar Probemessungen durchführen lassen, um diese als Refenrenz zu verwenden.
+Projekt 6 geht hierzu mehr ins Detail.
+Du kannst dir auch das Kalibrierungsbeispiel anschauen, das mit der Software mitgeliefert wird:
+
+
+###### Seite 34
