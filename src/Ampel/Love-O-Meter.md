@@ -42,5 +42,6 @@ Man könnte z.B. einen Schalter dazu einsetzen, auf Knopfdruck die Ausgangstempe
 Projekt 6 geht hierzu mehr ins Detail.
 Du kannst dir auch das Kalibrierungsbeispiel anschauen, das mit der Software mitgeliefert wird:
 
+[Kalibration](https://www.arduino.cc/en/calibration) 
 
 ###### Seite 34
