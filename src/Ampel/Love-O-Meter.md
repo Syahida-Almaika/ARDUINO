@@ -1,3 +1,12 @@
+# 03
+
+BETANDTEILE:
++ LED
++ 220 - OHM -WIDRESTAND
++ TEMPERATURFÜHLER
+
+###### Seite 42
+
 ### Projekt 03
 # LOVE-O-METER
 ### MACHE AUS DEINEM ARDUINO EIN LIEBESTHERMOMETER. MIT EINEM ANALOGE EINGANG MISST DU, WIE HEIß DU WIRKLICH BIST!
@@ -21,4 +30,6 @@ Diese Modell, der TMP36, ist praktich, weil sich seine ausgehende Spannung dirkt
 
 Die ARDUINO-IDE verfügt über einen sogenannten seriellen Monitor, mit dem man Ergebnisse vom Microcontroller während der Programmausführung überbewachen kann.
 Dadurch erhälts du fortwährend einen Überblick über den Status deiner Sensoren und du kannst nachvollziehen, was in deinem Schaltkreis geschieht.
+
+###### Seite 43
 
